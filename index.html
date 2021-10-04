@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lan = "en">
+    <head>
+        <title>Meeting Minutes</title>
+        <meta name="description" content= "Meeting minutes for team meeting for Lab 2">
+        <link rel="shortcut icon" type="image/jpg" href="Clock.jpg"/>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Lab 2 Meeting</h1>
+                <h2><em>Notes taken by Maryam Dehaini</em></h2><br>
+            </header>
+            <div>
+                <section>
+                    <h3>Topic: </h3> 
+                    <p>Intro to HTML</p>
+                </section>
+                <section>
+                    <h3>Date:</h3> 
+                    <p>3 October 2021</p>
+                </section>
+                <section>
+                    <h3>Team Members in Attendance:</h3>
+                    <ul>
+                        <li>Maryam Dehaini</li>
+                        <li>Person 2</li>
+                        <li>Person 3</li>
+                    </ul>
+                </section>
+            </div>
+            <span>
+                <section>
+                    <h3>Agenda: </h3>
+                    <ol>
+                        <li>Go over unfinished buisness </li>
+                        <li>Go over new buisness</li>
+                        <li>Comments/ Questions/ Concerns</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Unfinished Buisness:</h3>
+                    <ol>
+                        <li>Lab instructions</li>
+                        <li>Expected Deliverables</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>New Buisness: </h3>
+                    <ol>
+                        <li>Lab instructions</li>
+                        <li>Expected Deliverables</li>
+                    </ol>
+                </section>
+            </span>
+            <section>
+                <h3>Comments/Questions/Concerns:</h3>
+                <ul>
+                    <li>Q: When is the due date?<br>
+                    A: 3 October 2021</li>
+                    <li>Lab is expected to take three hours</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Resources:</h3>
+                <nav>
+                    <a href="https://www.freecodecamp.org/news/html-basics-for-beginners/">Link to Lab Resource for HTML |</a>
+                    <a href="https://canvas.ucsd.edu/courses/30736/assignments/36177">Link to Lab Instructions</a>
+                </nav>
+            </section>
+            <section>
+                <h3>Diagrams: </h3>
+                <img src="HTMLVisual.PNG" alt="HTML Visual">
+                <h3>Meeting Audio Recording:</h3>
+                <audio controls>
+                    <source src="Audio.m4a" type="audio/mpeg">
+                </audio>
+                <h3>Meeting Video Recording:</h3>
+                <video controls>
+                    <source src="Video.mp4" type="video/mp4">
+                </video>
+            </section>
+        </main>
+        <hr>
+        <details>
+            <summary><b>Feedback Form</b></summary>
+            <Form>
+                <fieldset>
+                    <label for="latest">Latest Meeting Attended: </label><br>
+                    <input type="Date" id="latest" name="latest"><br><br>
+                    </fieldset>
+                    <fieldset>
+                    <label for="rating">How was the Meeting?</label><br>
+                    <input type="radio" id="good" name="rating">
+                    <label for="good">Good</label><br>
+                    <input type="radio" id="ok" name="rating">
+                    <label for="ok">Ok</label><br>
+                    <input type="radio" id="bad" name="rating">
+                    <label for="bad">Bad</label><br><br>
+                </fieldset>  
+                <fieldset>
+                    <label for="fix">What Can Be Fixed Before Next Meeting?</label><br>
+                    <input type="checkbox" id="notes" name="fix">
+                    <label for="notes">Meeting notes need to be better</label><br>
+                    <input type="checkbox" id="pace" name="fix">
+                    <label for="pace">Meeting Pace was wrong</label><br>
+                    <input type="checkbox" id="time" name="fix">
+                    <label for="time">Meeting Timing was bad</label><br>
+                    <input type="checkbox" id="other" name="fix">
+                    <label for="other">Other</label><br><br>
+                </fieldset>
+                <fieldset>
+                    <label for="other">If you selected other, please specify below</label><br>
+                    <input type="text" id="other" name="other"><br><br>
+                </fieldset>
+                <fieldset>
+                    <label for="next">Can you make next weeks meeting?</label><br>
+                    <select name="next" id="next">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                <label for="day">Choose your browser from the list:</label>
+                <input list="days" name="day" id="day">
+                    <datalist id="days">
+                      <option value="Monday">
+                      <option value="Wednesday">
+                      <option value="Friday">
+                      <option value="I Cannot attend">
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <label for="other">Any Other Comments/Concerns/Questions?</label><br>
+                    <textarea type="text" id="other" name="other" rows="3" cols="30">Type here</textarea>
+                </fieldset>
+                <br><button type="button">Submit Responses</button>
+        </details>
+        <hr>    
+    <footer>
+        <br><strong>CSE 110</strong><br>
+        <i>Fall 2021</i>
+    </footer>
+    </body>
+</html>
