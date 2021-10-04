@@ -80,13 +80,13 @@
         <hr>
         <details>
             <summary><b>Feedback Form</b></summary>
-            <Form>
+            <form>
                 <fieldset>
                     <label for="latest">Latest Meeting Attended: </label><br>
                     <input type="Date" id="latest" name="latest"><br><br>
                     </fieldset>
                     <fieldset>
-                    <label for="rating">How was the Meeting?</label><br>
+                    <p>How was the Meeting?</p><br>
                     <input type="radio" id="good" name="rating">
                     <label for="good">Good</label><br>
                     <input type="radio" id="ok" name="rating">
@@ -95,7 +95,7 @@
                     <label for="bad">Bad</label><br><br>
                 </fieldset>  
                 <fieldset>
-                    <label for="fix">What Can Be Fixed Before Next Meeting?</label><br>
+                    <p>What Can Be Fixed Before Next Meeting?</p>
                     <input type="checkbox" id="notes" name="fix">
                     <label for="notes">Meeting notes need to be better</label><br>
                     <input type="checkbox" id="pace" name="fix">
@@ -106,8 +106,8 @@
                     <label for="other">Other</label><br><br>
                 </fieldset>
                 <fieldset>
-                    <label for="other">If you selected other, please specify below</label><br>
-                    <input type="text" id="other" name="other"><br><br>
+                    <label for="misc">If you selected other, please specify below</label><br>
+                    <input type="text" id="misc" name="misc"><br><br>
                 </fieldset>
                 <fieldset>
                     <label for="next">Can you make next weeks meeting?</label><br>
@@ -127,10 +127,11 @@
                     </datalist>
                 </fieldset>
                 <fieldset>
-                    <label for="other">Any Other Comments/Concerns/Questions?</label><br>
-                    <textarea type="text" id="other" name="other" rows="3" cols="30">Type here</textarea>
+                    <label for="comment">Any Other Comments/Concerns/Questions?</label><br>
+                    <textarea id="comment" name="comment" rows="3" cols="30">Type here</textarea>
                 </fieldset>
                 <br><button type="button">Submit Responses</button>
+            </form>
         </details>
         <hr>    
     <footer>
