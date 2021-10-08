@@ -3,6 +3,7 @@
 
 <head>
     <title>Meeting Minutes</title>
+    <link rel="stylesheet" href="myStyle.css">
     <meta name="description" content="Meeting minutes for team meeting for Lab 2">
     <link rel="shortcut icon" type="image/jpg" href="Clock.jpg" />
 </head>
@@ -10,19 +11,18 @@
 <body>
     <header>
         <h1>Lab 2 Meeting</h1>
-        <h2><em>Notes taken by Maryam Dehaini</em></h2><br>
+        <h2><em>Notes taken by Maryam Dehaini</em></h2>
     </header>
     <main>
-        <div>
-            <section>
-                <h3>Topic: </h3>
+            <section class="side">
+                <h3>Topic:</h3>
                 <p>Intro to HTML</p>
             </section>
-            <section>
+            <section class="side">
                 <h3>Date:</h3>
                 <p>3 October 2021</p>
             </section>
-            <section>
+            <section class="side">
                 <h3>Team Members in Attendance:</h3>
                 <ul>
                     <li>Maryam Dehaini</li>
@@ -30,7 +30,6 @@
                     <li>Person 3</li>
                 </ul>
             </section>
-        </div>
         <section>
             <h3>Agenda: </h3>
             <ol>
@@ -39,26 +38,28 @@
                 <li>Comments/ Questions/ Concerns</li>
             </ol>
         </section>
-        <section>
+        <section class = "side">
             <h3>Unfinished Buisness:</h3>
             <ol>
                 <li>Lab instructions</li>
                 <li>Expected Deliverables</li>
             </ol>
         </section>
-        <section>
+        <section class = "side">
             <h3>New Buisness: </h3>
             <ol>
                 <li>Lab instructions</li>
                 <li>Expected Deliverables</li>
             </ol>
         </section>
+        <section>
         <h3>Comments/Questions/Concerns:</h3>
         <ul>
             <li><span>Q: When is the due date?</span><br>
                 A: 3 October 2021</li>
             <li>Lab is expected to take three hours</li>
         </ul>
+        </section>
         <section>
             <h3>Resources:</h3>
             <nav>
@@ -67,18 +68,24 @@
                 <a href="https://canvas.ucsd.edu/courses/30736/assignments/36177">Link to Lab Instructions</a>
             </nav>
         </section>
+        <div class="visuals">
         <section>
             <h3>Diagrams: </h3>
-            <img src="HTMLVisual.PNG" alt="HTML Visual">
+            <img src="HTMLVisual.PNG" alt="HTML Visual"  width=75% >
+        </section>
+        <section>
             <h3>Meeting Audio Recording:</h3>
             <audio controls>
                 <source src="Audio.m4a" type="audio/mpeg">
             </audio>
+        </section>
+        <section>
             <h3>Meeting Video Recording:</h3>
-            <video controls>
+            <video controls width=75%>
                 <source src="Video.mp4" type="video/mp4">
             </video>
         </section>
+        </div>
     </main>
     <hr>
     <details>
