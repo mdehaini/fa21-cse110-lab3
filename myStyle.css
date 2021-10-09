@@ -9,7 +9,7 @@
 }
 
 .center{
-    padding-left: 12.5%;
+    padding-left: 12.5vw;
 }
 
 
@@ -22,8 +22,8 @@ header{
     margin-left: 5%;
     margin-right: 5%;
     display: block;   
-    font-size: 30px;  
-    position: static;  
+    font-size: 30px;
+    position: static;     
     
 }
 
@@ -72,5 +72,8 @@ form{
 details{
     background-color: #FF4F58FF;
     position: relative;
+    width: 50em; 
+    height: 80vh; 
+
 }
 	
