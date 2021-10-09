@@ -10,6 +10,9 @@
 
 .center{
     padding-left: 12.5vw;
+    padding-right: 12.5vw; 
+    padding-top: 1vh; 
+    padding-bottom: 1vh; 
 }
 
 
@@ -31,10 +34,9 @@ section{
     font-size: 24px; 
     color: white; 
     background-size: 10px;
-    padding: 6pc;
+    padding: 6pc 6pc 6pc 6pc;
     align-items: center;
-    margin-top:20px;
-    margin-bottom:20px; 
+    margin: 20px 20px 20px 20px; 
     border-width: 4pt;  
     background-color:rgb(26, 60, 66);  
     border-style: solid; 
@@ -65,15 +67,12 @@ section h3{
     text-decoration:underline; 
 }
 
-form{
-    color: white
-}
-
 details{
     background-color: #FF4F58FF;
     position: relative;
     width: 50em; 
     height: 80vh; 
-
+    margin: auto; 
+    color: white
 }
 	
