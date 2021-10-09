@@ -12,7 +12,9 @@
     padding-left: 12.5vw;
     padding-right: 12.5vw; 
     padding-top: 1vh; 
-    padding-bottom: 1vh; 
+    padding-bottom: 1vh;  
+    
+
 }
 
 
@@ -22,11 +24,13 @@ header{
     text-align: center; 
     color:rgb(26, 60, 66); 
     margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: block;   
     font-size: 30px;
-    position: static;     
+    position: static;  
+    height: 10pc;
+  
     
 }
 
@@ -43,7 +47,13 @@ section{
     border-style: solid; 
     border-color: #FF4F58FF;
     border-radius: 50px; 
+    display: flex; 
+    max-width: 90vw; 
+    min-width: 10vw; 
+    
 }
+
+
 
 .container{
     display: flex;
@@ -66,14 +76,17 @@ section a{
 section h3{
     color:#FF4F58FF;
     text-decoration:underline; 
+    margin-right: 20px; 
 }
 
 details{
-    background-color: #FF4F58FF;
     position: relative;
-    width: 50em; 
-    height: 80vh; 
+    text-align: center;
     margin: auto; 
-    color: white
+    width: 50pc;  
+}
+
+footer{
+    position: relative;
 }
 	
