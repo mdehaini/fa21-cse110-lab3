@@ -58,17 +58,13 @@ section{
     
 }
 
-    #gridcontainer{
-        display: grid;  
-        column-gap: 10px; 
-        justify-items: stretch; 
-        grid-template-columns: 50% 50%;
+#gridcontainer{
+    display: grid;  
+    column-gap: 10px; 
+    justify-items: stretch; 
+    grid-template-columns: 50% 50%;
         
-    }
-
-    .item{
-
-    }
+}
 
 .container{
     display: flex;
