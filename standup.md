@@ -4,14 +4,14 @@ Date:
 
 Attendance: 
 
-| Name | What was worked on yesterday?  | What is being worked on today? | What will be worked on tomorrow? |
-|------|--------------------------------|--------------------------------|----------------------------------|
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
-|      |                                |                                |                                  |
+| Name | What was worked on yesterday?  | What is being worked on today? | What will be worked on tomorrow? | Notes/ Plans of actions |
+|------|--------------------------------|--------------------------------|----------------------------------|-------------------------|
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
+|      |                                |                                |                                  ||
